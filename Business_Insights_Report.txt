@@ -1,0 +1,52 @@
+Business Insights from EDA:
+1. Top-selling products:
+ProductName
+ActiveWear Smartwatch    100
+SoundWave Headphones      97
+HomeSense Desk Lamp       81
+ActiveWear Rug            79
+SoundWave Cookbook        78
+Name: Quantity, dtype: int64
+
+2. Revenue by Region:
+Region
+Asia             152074.97
+Europe           166254.63
+North America    152313.40
+South America    219352.56
+Name: TotalValue, dtype: float64
+
+3. Customer purchasing behavior:
+CustomerID
+C0141    10673.87
+C0054     8040.39
+C0065     7663.70
+C0156     7634.45
+C0082     7572.91
+Name: TotalValue, dtype: float64
+
+4. Most Profitable Categories:
+Category
+Books          192147.47
+Electronics    180783.50
+Clothing       166170.66
+Home Decor     150893.93
+Name: TotalValue, dtype: float64
+
+5. Monthly Revenue Trends:
+Month
+2023-12     3769.52
+2024-01    66376.39
+2024-02    51459.27
+2024-03    47828.73
+2024-04    57519.06
+2024-05    64527.74
+2024-06    48771.18
+2024-07    71366.39
+2024-08    63436.74
+2024-09    70603.75
+2024-10    47063.22
+2024-11    38224.37
+2024-12    59049.20
+Freq: M, Name: TotalValue, dtype: float64
+

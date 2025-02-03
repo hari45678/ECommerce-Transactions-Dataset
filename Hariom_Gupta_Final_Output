@@ -1,0 +1,123 @@
+CustomerID        CustomerName         Region  SignupDate
+0      C0001    Lawrence Carroll  South America  2022-07-10
+1      C0002      Elizabeth Lutz           Asia  2022-02-13
+2      C0003      Michael Rivera  South America  2024-03-07
+3      C0004  Kathleen Rodriguez  South America  2022-10-09
+4      C0005         Laura Weber           Asia  2022-08-15
+
+
+  ProductID              ProductName     Category   Price
+0      P001     ActiveWear Biography        Books  169.30
+1      P002    ActiveWear Smartwatch  Electronics  346.30
+2      P003  ComfortLiving Biography        Books   44.12
+3      P004            BookWorld Rug   Home Decor   95.69
+4      P005          TechPro T-Shirt     Clothing  429.31
+
+
+  TransactionID CustomerID ProductID      TransactionDate  Quantity  TotalValue   Price
+0        T00001      C0199      P067  2024-08-25 12:38:23         1      300.68  300.68
+1        T00112      C0146      P067  2024-05-27 22:23:54         1      300.68  300.68
+2        T00166      C0127      P067   2024-04-25 7:38:55         1      300.68  300.68
+3        T00272      C0087      P067  2024-03-26 22:55:37         2      601.36  300.68
+4        T00363      C0070      P067  2024-03-21 15:10:10         3      902.04  300.68
+
+
+CustomerID      0
+CustomerName    0
+Region          0
+SignupDate      0
+
+
+dtype: int64
+ProductID      0
+ProductName    0
+Category       0
+Price          0
+
+
+dtype: int64
+TransactionID      0
+CustomerID         0
+ProductID          0
+TransactionDate    0
+Quantity           0
+TotalValue         0
+Price              0
+
+
+dtype: int64
+
+          Quantity   TotalValue       Price
+count  1000.000000  1000.000000  1000.00000
+mean      2.537000   689.995560   272.55407
+std       1.117981   493.144478   140.73639
+min       1.000000    16.080000    16.08000
+25%       2.000000   295.295000   147.95000
+50%       3.000000   588.880000   299.93000
+75%       4.000000  1011.660000   404.40000
+max       4.000000  1991.040000   497.76000
+
+
+  TransactionID CustomerID ProductID      TransactionDate  ...  SignupDate                      ProductName     Category Price_y
+0        T00001      C0199      P067  2024-08-25 12:38:23  ...  2022-12-03  ComfortLiving Bluetooth Speaker  Electronics  300.68
+1        T00112      C0146      P067  2024-05-27 22:23:54  ...  2024-09-04  ComfortLiving Bluetooth Speaker  Electronics  300.68
+2        T00166      C0127      P067   2024-04-25 7:38:55  ...  2024-04-04  ComfortLiving Bluetooth Speaker  Electronics  300.68
+3        T00272      C0087      P067  2024-03-26 22:55:37  ...  2024-04-11  ComfortLiving Bluetooth Speaker  Electronics  300.68
+4        T00363      C0070      P067  2024-03-21 15:10:10  ...  2022-03-15  ComfortLiving Bluetooth Speaker  Electronics  300.68
+
+
+[5 rows x 13 columns]
+
+ProductName
+ActiveWear Smartwatch    100
+SoundWave Headphones      97
+HomeSense Desk Lamp       81
+ActiveWear Rug            79
+SoundWave Cookbook        78
+
+Name: Quantity, dtype: int64
+
+Region
+Asia             152074.97
+Europe           166254.63
+North America    152313.40
+South America    219352.56
+
+
+Name: TotalValue, dtype: float64
+
+CustomerID
+C0141    10673.87
+C0054     8040.39
+C0065     7663.70
+C0156     7634.45
+C0082     7572.91
+
+Name: TotalValue, dtype: float64
+
+Category
+Books          192147.47
+Electronics    180783.50
+Clothing       166170.66
+Home Decor     150893.93
+
+
+Name: TotalValue, dtype: float64
+Month
+2023-12     3769.52
+2024-01    66376.39
+2024-02    51459.27
+2024-03    47828.73
+2024-04    57519.06
+2024-05    64527.74
+2024-06    48771.18
+2024-07    71366.39
+2024-08    63436.74
+2024-09    70603.75
+2024-10    47063.22
+2024-11    38224.37
+2024-12    59049.20
+
+Freq: M, Name: TotalValue, dtype: float64
+Davies-Bouldin Index: 0.776661054409607
+Report generated successfully.
